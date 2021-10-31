@@ -1,0 +1,1 @@
+import torch.onnxfrom trainmodule import TrainModulemodel_path = './CKPT/MNIST.ckpt'batch_size = 1model = TrainModule().load_from_checkpoint(model_path)x = torch.randn(batch_size, 1, 28, 28, requires_grad=True)model.to_onnx('./data/MNIST.onnx',              input_sample=x,              export_params=True)

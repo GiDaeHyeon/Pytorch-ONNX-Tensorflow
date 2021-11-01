@@ -5,5 +5,3 @@ cd onnx-tensorflow
 pip install -e .
 
 cd ../
-
-rm -rf onnx-tensorflow

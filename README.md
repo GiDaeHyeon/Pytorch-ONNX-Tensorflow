@@ -39,25 +39,6 @@ PyTorch Lightning은 PyTorch에 대해 High Level 인터페이스를 제공하�
 
 아직도 안쓰시나요? 저런,,,
 
-- 저번에도 이 말 했었쥬..?
-    
-    
-    ## PyTorch Lightning
-    
-    ---
-    
-    - Pytorch Lightning은 PyTorch를 조금 더 사용하기 편리하게 만들어주는 라이브러리다.
-    
-    [PyTorch Lightning Documentation - PyTorch Lightning 1.4.7 documentation](https://pytorch-lightning.readthedocs.io/en/latest/?_ga=2.174521636.785602593.1631859447-232510572.1631441221)
-    
-    - 특징
-        - LightningModule, LightningDataModule 등 모듈로 학습 스크립트를 관리하기 때문에 코드 관리가 편리하다!
-        - 병렬처리가 아주 간편하다! → 내가 Pytorch Lightning을 사용하는 가장 주된 이유
-        - 반복되는 학습스크립트 내 코드(ex. optimizer.zero_grad(), optimizer.step() loss.backward() ...) 를 생략할 수 있어, 간결한 학습 스크립트 작성이 가능하다.
-            - 물론 커스텀도 가능하다! → 머드라 그 auto_optimization 옵션을 False로 주면,, → 그 여러 개 모델을 한 번에 학습시킬 때(두 개 이상의 Optimizer를 사용해야할 때) 사용해본 적이 있는데,, 뭐 기회가 있으면 다뤄보기로 하죠?
-        - 다양한 callback 함수를 활용할 수 있다!
-        - torchmetrics와 궁합이 좋고, logging기능도 탁월하다!
-
 아니나 다를까,, PyTorch 모델을 ONNX로 변환하는 것도 PyTorch Lightning을 활용해 조금 더 쉽게 할 수 있다!! 아아.. PyTorch Lightning은 그저 빛...
 
 PyTorch Lightning 만든 사람,, 대통령상 정도는 받아야하지 않나?

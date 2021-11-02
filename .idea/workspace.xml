@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591721cf-f031-4da4-afc4-5ce4c33a94ad" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ONNX2tf.py" beforeDir="false" afterPath="$PROJECT_DIR$/ONNX2tf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch2ONNX.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyTorch2ONNX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datamodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/datamodule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnx-tensorflow.sh" beforeDir="false" afterPath="$PROJECT_DIR$/onnx-tensorflow.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnxtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/onnxtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainmodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainmodule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -54,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635679505644</updated>
       <workItem from="1635679507846" duration="9980000" />
-      <workItem from="1635777735676" duration="3310000" />
+      <workItem from="1635777735676" duration="5302000" />
     </task>
     <servers />
   </component>
